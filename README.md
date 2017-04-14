@@ -11,6 +11,7 @@
 git clone https://github.com/wucao/websocket-tail-demo.git
 cd websocket-tail-demo
 mvn jetty:run
+mvn -Djetty.port=8086 jetty:run
 ```
 成功后可以在http://localhost:8080/查看实时日志。
 
